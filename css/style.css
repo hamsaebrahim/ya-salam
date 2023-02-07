@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    padding: 7vh;
+   
+    background:
+	radial-gradient(
+		circle at left,
+		transparent,
+		#99eb47,
+		#99eb47 3.36927%,
+		transparent 3.36927%,
+		transparent 6.73854%,
+		#b3e87d 6.73854%,
+		#b3e87d 10.10782%,
+		transparent 10.10782%,
+		transparent 13.47709%,
+		#ccebad 13.47709%,
+		#ccebad 16.84636%,
+		transparent 16.84636%,
+		transparent 20.21563%,
+		#a6ed5e 20.21563%,
+		#a6ed5e 23.58491%,
+		transparent 23.58491%,
+		transparent 26.95418%,
+		#ccebad 26.95418%,
+		#ccebad 30.32345%,
+		transparent 30.32345%,
+		transparent 33.69272%,
+		#b3e87d 33.69272%,
+		#b3e87d 37.06199%,
+		transparent 37.06199%,
+		transparent 40.43127%,
+		#99eb47 40.43127%,
+		#99eb47 43.80054%,
+		transparent 43.80054%,
+		transparent 47.16981%
+	),
+	radial-gradient(
+		circle at right,
+		transparent,
+		#99eb47 0%,
+		#99eb47 3.36927%,
+		transparent 3.36927%,
+		transparent 6.73854%,
+		#b3e87d 6.73854%,
+		#b3e87d 10.10782%,
+		transparent 10.10782%,
+		transparent 13.47709%,
+		#ccebad 13.47709%,
+		#ccebad 16.84636%,
+		transparent 16.84636%,
+		transparent 20.21563%,
+		#a6ed5e 20.21563%,
+		#a6ed5e 23.58491%,
+		transparent 23.58491%,
+		transparent 26.95418%,
+		#ccebad 26.95418%,
+		#ccebad 30.32345%,
+		transparent 30.32345%,
+		transparent 33.69272%,
+		#b3e87d 33.69272%,
+		#b3e87d 37.06199%,
+		transparent 37.06199%,
+		transparent 40.43127%,
+		#99eb47 40.43127%,
+		#99eb47 43.80054%,
+		transparent 43.80054%,
+		transparent 47.16981%
+	),
+	radial-gradient(circle at left,
+		transparent,
+		#99eb47 0%,
+		#99eb47 3.36927%,
+		transparent 3.36927%,
+		transparent 6.73854%,
+		#b3e87d 6.73854%,
+		#b3e87d 10.10782%,
+		transparent 10.10782%,
+		transparent 13.47709%,
+		#ccebad 13.47709%,
+		#ccebad 16.84636%,
+		transparent 16.84636%,
+		transparent 20.21563%,
+		#a6ed5e 20.21563%,
+		#a6ed5e 23.58491%,
+		transparent 23.58491%,
+		transparent 26.95418%,
+		#ccebad 26.95418%,
+		#ccebad 30.32345%,
+		transparent 30.32345%,
+		transparent 33.69272%,
+		#b3e87d 33.69272%,
+		#b3e87d 37.06199%,
+		transparent 37.06199%,
+		transparent 40.43127%,
+		#99eb47 40.43127%,
+		#99eb47 43.80054%,
+		transparent 43.80054%,
+		transparent 47.16981%
+	),
+	radial-gradient(circle at right,
+		transparent,
+		#99eb47 0%,
+		#99eb47 3.36927%,
+		transparent 3.36927%,
+		transparent 6.73854%,
+		#b3e87d 6.73854%,
+		#b3e87d 10.10782%,
+		transparent 10.10782%,
+		transparent 13.47709%,
+		#ccebad 13.47709%,
+		#ccebad 16.84636%,
+		transparent 16.84636%,
+		transparent 20.21563%,
+		#a6ed5e 20.21563%,
+		#a6ed5e 23.58491%,
+		transparent 23.58491%,
+		transparent 26.95418%,
+		#ccebad 26.95418%,
+		#ccebad 30.32345%,
+		transparent 30.32345%,
+		transparent 33.69272%,
+		#b3e87d 33.69272%,
+		#b3e87d 37.06199%,
+		transparent 37.06199%,
+		transparent 40.43127%,
+		#99eb47 40.43127%,
+		#99eb47 43.80054%,
+		transparent 43.80054%,
+		transparent 47.16981%
+	), #99e052;
+
+background-size: 4em 4em;
+background-position:
+	0 0,
+	0 2em,
+	2em 0,
+	2em 2em;
+   background-color: black !important;
+background-blend-mode:
+	 overlay,
+	overlay,
+	normal,
+	normal;   
+}
+.container{
+    background-color: black;
+    height: calc(100%-14vh);
+
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding-top:6vh ;
+    padding-bottom:6vh ;
+}
+
+.row div{
+    border: 2px solid #12f012;
+    border-radius: 15px;
+    padding: 0%;
+    transition: 0.3s;
+    box-shadow: 0 0 15px 1px #91ff00;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: black;
+}
+.row:nth-child(3) iframe{
+    overflow-x: hidden !important;
+}
+iframe{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+	overflow-x: hidden;
+}
+.tittle h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow:
+    -0.2rem -0.2rem 1rem #fff,
+    0.2rem 0.2rem 1rem #fff,
+    0 0 2rem #12f012,
+    0 0 4rem #12f012,
+    0 0 6rem #12f012,
+    0 0 8rem #12f012,
+    0 0 10rem #12f012;
+}
